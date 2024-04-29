@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    height: 100vh;
+    background-image: url(/ASSETS/Tree.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: left;
+    color: white;
+}
+
+.navigate{
+    display: flex;
+    padding: 25px 12.5%;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.navigate h1{
+    font-weight: 700;
+    font-size: 50px;    
+}
+
+.navigate span{
+    color: crimson;
+    font-weight: 700;
+    font-size: 75px;
+}
+
+.navigate nav li{
+    list-style-type: none;
+}
+
+.navigate nav{
+    display: inline-flex;
+    margin-top: 61px;
+    
+}
+
+.navigate nav li{
+    margin-left: 16px;
+    font-weight: bolder;
+}
+
+.navigate nav li a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: crimson;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid black;
+    padding: 18px 25px;
+    margin-top: -20px;
+    margin-left: 30px;
+    border-radius: 45px;
+}
+.hero{
+    
+    line-height: 50px;
+    font-size: 27px;
+    margin-top: 80px;
+    margin-left: 35px;
+}
+
+.hero h3{
+    font-size: 59px;
+}
+
+.hero span{
+    color: crimson;
+}
+
+.about{
+
+}
+.service{
+    background-color: darkgrey;
+    height: 100vh;
+}
+.service h2{
+    text-align: center;
+    
+   
+}
+.Service-container{
+    border: 2px solid black;
+    width: 330px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: auto;
+    
+    
+
+}

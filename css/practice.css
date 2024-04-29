@@ -1,0 +1,10 @@
+.get-started-button .btn{
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(to right,rgb(204, 36, 36), rgb(233, 61, 90));
+   
+}
+.custom-nav{
+    background-color: black;
+    color: #fff;
+}

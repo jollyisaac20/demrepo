@@ -1,0 +1,46 @@
+.navigation .container-fluid{
+    background-color: #2e2e2e;
+    color: #fff;
+    font-size: 14;
+
+}
+
+.custom-nav{
+    background-color: #000000;
+    color: #fff;
+}
+
+.get-started-button{
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(to right,rgb(204, 36, 36), rgb(233, 61, 90));
+
+}
+
+.intro{
+    background-color: black;
+    color: #fff;
+}
+
+.logo-setting{
+    display: grid inline-grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.logo-setting img{
+    opacity: 0.7;
+    margin: 0 10px;
+}
+
+.content{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.editor{
+    background-color: #000000;
+    color: #ffffff;
+}

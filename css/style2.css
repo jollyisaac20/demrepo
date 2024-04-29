@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+     /* background-color: dimgray;  */
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+}
+.header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header span{
+    color: crimson;
+}
+
+.header nav a{
+    margin-right: 30px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn{
+    color: white;
+    background-color: crimson;
+    border: 2px solid black;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.btn a{
+    padding-left: 30px;
+    font-weight: 500;
+    
+}
+
+.btn:hover{
+    background-color: black;
+
+}
+
+.hero{
+    margin-top: 200px;
+    line-height: 4em;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.my-body{
+    margin-top: 75px;
+}
+.my-body img{
+    float: left;
+    margin-top: 50px;
+    width: 430px;
+    height: auto;
+    margin: 10px;
+   
+}
+.my-body h2{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 23px;
+    
+}
+
+.my-body h5{
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.my-body p{
+    line-height: 2em;
+}
+
+.my-body .btn{
+    margin-top: 25px;
+    
+
+}
+
+.page2{
+    height: 100vh;
+    margin-top: 500px;
+}
+.service{
+    clear: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.flexbox-item{
+    border: 3px solid #333;
+    width: 300px;
+    margin: 10px;
+    padding: 75px 10px;
+    background-color: #efefef;
+    height: 300px;
+    border-radius: 50px;
+    
+
+}
+
+
+
+
